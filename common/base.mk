@@ -345,7 +345,7 @@ PRODUCT_COPY_FILES += \
 -include frameworks/base/data/videos/VideoPackage1.mk
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-  SystemUIGoogle
+  SystemUI
 
 # Save space by disabling dexpreopt of GMS modules.
 DEXPREOPT.$(TARGET_PRODUCT).PrebuiltGmsCorePi_extract.CONFIG=disable
